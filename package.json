@@ -1,0 +1,23 @@
+{
+  "name": "tiscord",
+  "version": "0.0.1",
+  "description": "A guide for the tiscord library",
+  "main": "index.js",
+  "authors": {
+    "name": "xiboon",
+    "email": ""
+  },
+  "repository": "https://github.com/tiscordlib/guide/tiscord",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-dark": "^0.1.0"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^3.1.1"
+  }
+}
