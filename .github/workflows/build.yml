@@ -15,6 +15,7 @@ jobs:
         run: npm run build
       - name: Publish documentation
         run: |
-        git config --global user.name "actions"
-        git commit -a -m "Build documentation" && git push
+          git config --global user.name "actions"
+          git add *
+          git commit -a -m "Build documentation" && git push
         
