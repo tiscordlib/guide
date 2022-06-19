@@ -1,8 +1,9 @@
-# Getting started
+# Setting up our bot
 In this guide you're expected to:
 - know TypeScript
 - have a Discord account
 - have a working text editor like Visual Studio Code or IntelliJ IDEA
+
 
 ## Create a bot account
 We can create a bot account on [Discord Developer Portal](https://discord.com/developers/applications/).
@@ -33,6 +34,13 @@ You shouldn't ever share this token with anyone, because they will be able to us
 If you ever accidentally share your token, you should immediately come back to this page and reset it.
 
 It looks something like this: `NzkyNzE1NDU0MTk2MDg4ODQy.X-hvzA.Ovy4MCQywSkoMRRclStW4xAYK7I`. If it looks different, you could've copied the client secret instead of the token.
+
+### Add your bot to a server.
+You can create a bot invite link by clicking on the OAuth2 tab, and then clicking on the URL Generator category. You will see a screen, where you will be able to set the scopes and permissions for your bot.
+
+You should set the scopes to `bot` and `application.commands`, and set the permissions to what you need and generate the link.
+
+Then, you can paste the link into your browser and add the bot to your server.
 
 ## Install node.js
 You can install node.js from your package manager, or download it from [nodejs.org](https://nodejs.org/en/download/).
