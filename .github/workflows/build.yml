@@ -1,0 +1,15 @@
+name: Build Documentation
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18.x
+      - name: Build documentation
+        run: npm run build
+      - name: Publish documentation
+        run: git commit -a -m "Build documentation" && git push
