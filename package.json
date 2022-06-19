@@ -10,7 +10,7 @@
   "repository": "https://github.com/tiscordlib/guide/tiscord",
   "scripts": {
     "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build . && echo guide.tiscord.me > docs/CNAME "
   },
   "license": "MIT",
   "devDependencies": {
